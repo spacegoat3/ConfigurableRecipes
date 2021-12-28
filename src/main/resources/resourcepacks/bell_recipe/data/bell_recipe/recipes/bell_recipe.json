@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:logs"
+      "item": "minecraft:stick"
     },
     "G": {
       "item": "minecraft:gold_block"
