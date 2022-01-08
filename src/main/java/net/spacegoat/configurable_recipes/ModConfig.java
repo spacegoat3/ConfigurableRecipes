@@ -30,6 +30,10 @@ public class ModConfig implements ConfigData {
     public UndoRecipes UndoRecipes = new UndoRecipes();
 
     @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Category("change_recipes")
+    public UniversalRecipes UniversalRecipes = new UniversalRecipes();
+
+    @ConfigEntry.Gui.TransitiveObject
     @ConfigEntry.Category("blockof_recipes")
     public BlockOfRecipes BlockOfRecipes = new BlockOfRecipes();
 
@@ -53,6 +57,9 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("(Requires Block Of... Mod) Enables all Block Of... Recipes")
         public boolean enableBlockOfRecipes = true;
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Enables use of multiple items from the same category for recipes.")
+        public boolean enableUniversalRecipes = true;
     }
     public static class Recipes {
         @ConfigEntry.Gui.RequiresRestart
@@ -90,10 +97,7 @@ public class ModConfig implements ConfigData {
         public boolean enableCobwebRecipe = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("1 Dirt/Grass + Rotten Flesh + 1 Bone Meal = 3 Dirt/Grass")
-        public boolean enableBonemealMultiplier = true;
-        @ConfigEntry.Gui.RequiresRestart
-        @Comment("Stone types in Tools, Furnace, Dispenser, Dropper, Brewing Stand recipes")
-        public boolean enableUniversalStone = true;
+        public boolean enableBonemealMultipliers = true;
     }
     public static class RottenFleshToLeather{
         @ConfigEntry.Gui.RequiresRestart
@@ -119,6 +123,11 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("4 Stairs in a square shape = 6 Blocks")
         public boolean stairToBlock = true;
+    }
+    public static class UniversalRecipes{
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Multiple stone type blocks in Tool, Furnace, Dispenser, Dropper, Brewing Stand recipes")
+        public boolean enableUniversalStone = true;
     }
     public static class BlockOfRecipes{
         @ConfigEntry.Gui.RequiresRestart

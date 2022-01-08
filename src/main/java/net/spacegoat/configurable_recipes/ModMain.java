@@ -50,11 +50,8 @@ public class ModMain implements ModInitializer {
 		if (ModConfig.getConfig().VanillaRecipes.enableCobwebRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
 			cobwebRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableBonemealMultiplier && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().VanillaRecipes.enableBonemealMultipliers && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
 			bonemealMultiplierRecipes();
-		}
-		if (ModConfig.getConfig().VanillaRecipes.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
-			universalStoneRecipes();
 		}
 
 
@@ -82,6 +79,12 @@ public class ModMain implements ModInitializer {
 		}
 		if (ModConfig.getConfig().UndoRecipes.stairToBlock && ModConfig.getConfig().RecipeCategories.enableUndoRecipes){
 			stairToBlockRecipes();
+		}
+
+
+		//CHANGE RECIPES
+		if (ModConfig.getConfig().UniversalRecipes.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableUniversalRecipes){
+			universalStoneRecipes();
 		}
 
 
