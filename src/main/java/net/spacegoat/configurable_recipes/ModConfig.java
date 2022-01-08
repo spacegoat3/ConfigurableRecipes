@@ -91,6 +91,9 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("1 Dirt/Grass + Rotten Flesh + 1 Bone Meal = 3 Dirt/Grass")
         public boolean enableBonemealMultiplier = true;
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Stone types in Tools, Furnace, Dispenser, Dropper, Brewing Stand recipes")
+        public boolean enableUniversalStone = true;
     }
     public static class RottenFleshToLeather{
         @ConfigEntry.Gui.RequiresRestart

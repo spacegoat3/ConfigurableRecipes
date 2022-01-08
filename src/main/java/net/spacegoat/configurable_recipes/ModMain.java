@@ -53,6 +53,9 @@ public class ModMain implements ModInitializer {
 		if (ModConfig.getConfig().VanillaRecipes.enableBonemealMultiplier && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
 			bonemealMultiplierRecipes();
 		}
+		if (ModConfig.getConfig().VanillaRecipes.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+			universalStoneRecipes();
+		}
 
 
 		//ROTTEN FLESH TO LEATHER
@@ -171,6 +174,12 @@ public class ModMain implements ModInitializer {
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
 					MOD_ID, "bonemeal_multiplier_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+		});
+	}
+	private void universalStoneRecipes() {
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
+					MOD_ID, "universal_stone_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
 		});
 	}
 
