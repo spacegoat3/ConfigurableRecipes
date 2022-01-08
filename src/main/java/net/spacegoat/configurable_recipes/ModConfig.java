@@ -30,8 +30,8 @@ public class ModConfig implements ConfigData {
     public UndoRecipes UndoRecipes = new UndoRecipes();
 
     @ConfigEntry.Gui.TransitiveObject
-    @ConfigEntry.Category("change_recipes")
-    public UniversalRecipes UniversalRecipes = new UniversalRecipes();
+    @ConfigEntry.Category("miscellaneous")
+    public Miscellaneous Miscellaneous = new Miscellaneous();
 
     @ConfigEntry.Gui.TransitiveObject
     @ConfigEntry.Category("blockof_recipes")
@@ -59,7 +59,7 @@ public class ModConfig implements ConfigData {
         public boolean enableBlockOfRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables use of multiple items from the same category for recipes.")
-        public boolean enableUniversalRecipes = true;
+        public boolean enableMiscellaneousRecipes = true;
     }
     public static class Recipes {
         @ConfigEntry.Gui.RequiresRestart
@@ -124,7 +124,7 @@ public class ModConfig implements ConfigData {
         @Comment("4 Stairs in a square shape = 6 Blocks")
         public boolean stairToBlock = true;
     }
-    public static class UniversalRecipes{
+    public static class Miscellaneous{
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Multiple stone type blocks in Tool, Furnace, Dispenser, Dropper, Brewing Stand recipes")
         public boolean enableUniversalStone = true;

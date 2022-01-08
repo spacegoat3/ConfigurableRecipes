@@ -83,7 +83,7 @@ public class ModMain implements ModInitializer {
 
 
 		//CHANGE RECIPES
-		if (ModConfig.getConfig().UniversalRecipes.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableUniversalRecipes){
+		if (ModConfig.getConfig().Miscellaneous.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableMiscellaneousRecipes){
 			universalStoneRecipes();
 		}
 
