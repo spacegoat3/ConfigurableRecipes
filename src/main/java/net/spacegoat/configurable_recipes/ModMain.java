@@ -79,9 +79,12 @@ public class ModMain implements ModInitializer {
 		if (ModConfig.getConfig().UndoRecipes.stairToBlock && ModConfig.getConfig().RecipeCategories.enableUndoRecipes){
 			stairToBlockRecipes();
 		}
+		if (ModConfig.getConfig().UndoRecipes.ladderToStick && ModConfig.getConfig().RecipeCategories.enableUndoRecipes){
+			ladderToStickRecipe();
+		}
 
 
-		//CHANGE RECIPES
+		//MISCELLANEOUS
 		if (ModConfig.getConfig().Miscellaneous.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableMiscellaneous){
 			universalStoneRecipes();
 		}
