@@ -118,11 +118,14 @@ public class ModConfig implements ConfigData {
     }
     public static class UndoRecipes{
         @ConfigEntry.Gui.RequiresRestart
-        @Comment("6 Slabs Horizontally = 3 Blocks")
+        @Comment("6 Slabs paced horizontally = 3 Blocks")
         public boolean slabToBlock = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("4 Stairs in a square shape = 6 Blocks")
         public boolean stairToBlock = true;
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("3 Ladders in a horizontal or vertical row = 7 Sticks")
+        public boolean ladderToStick = true;
     }
     public static class Miscellaneous{
         @ConfigEntry.Gui.RequiresRestart

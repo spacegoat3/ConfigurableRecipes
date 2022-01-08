@@ -178,12 +178,6 @@ public class ModMain implements ModInitializer {
 					MOD_ID, "bonemeal_multiplier_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
 		});
 	}
-	private void universalStoneRecipes() {
-		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
-			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
-					MOD_ID, "universal_stone_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
-		});
-	}
 
 
 	//ROTTEN FLESH TO LEATHER
@@ -245,7 +239,21 @@ public class ModMain implements ModInitializer {
 					MOD_ID, "stair_to_block_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
 		});
 	}
+	private void ladderToStickRecipe() {
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
+					MOD_ID, "ladder_to_stick_recipe"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+		});
+	}
 
+
+	//MISCELLANEOUS
+	private void universalStoneRecipes() {
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
+					MOD_ID, "universal_stone_recipes"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+		});
+	}
 
 	//MODDED RECIPES
 	//BLOCK OF...
