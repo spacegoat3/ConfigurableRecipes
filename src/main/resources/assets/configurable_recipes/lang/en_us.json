@@ -5,6 +5,7 @@
   "text.autoconfig.configurable_recipes.category.undo_recipes": "Undo Recipes",
   "text.autoconfig.configurable_recipes.category.vanilla_recipes": "Vanilla Recipes",
   "text.autoconfig.configurable_recipes.category.blockof_recipes": "Block Of... Recipes",
+  "text.autoconfig.configurable_recipes.category.miscellaneous": "Miscellaneous",
 
   "curseforge.page": "CurseForge Page",
   "modrinth.page": "Modrinth Page",
@@ -20,7 +21,7 @@
   "text.autoconfig.configurable_recipes.option.VanillaRecipes.enableTridentRecipe": "Trident Recipe",
   "text.autoconfig.configurable_recipes.option.VanillaRecipes.enableChainmailArmorRecipes": "Chainmail Armor Recipes",
   "text.autoconfig.configurable_recipes.option.VanillaRecipes.enableCobwebRecipe": "Cobweb Recipe",
-  "text.autoconfig.configurable_recipes.option.VanillaRecipes.enableBonemealMultiplier": "Bonemeal Multiplier Recipes",
+  "text.autoconfig.configurable_recipes.option.VanillaRecipes.enableBonemealMultipliers": "Bonemeal Multiplier Recipes",
 
   "text.autoconfig.configurable_recipes.option.FleshToLeather.rottenFleshFromFurnace": "Rotten Flesh To Leather By Furnace",
   "text.autoconfig.configurable_recipes.option.FleshToLeather.rottenFleshFromCampfire": "Rotten Flesh To Leather By Campfire",
@@ -38,8 +39,11 @@
   "text.autoconfig.configurable_recipes.option.BlockOfRecipes.enableDriedKelpBlockFromFurnace": "Dried Kelp Block To Leather By Furnace",
   "text.autoconfig.configurable_recipes.option.BlockOfRecipes.enableDriedKelpBlockFromCampfire": "Dried Kelp Block To Leather By Campfire",
 
+  "text.autoconfig.configurable_recipes.option.Miscellaneous.enableUniversalStone": "Universal Stone Recipes",
+
   "text.autoconfig.configurable_recipes.option.RecipeCategories.enableVanillaRecipes": "Vanilla Recipes",
   "text.autoconfig.configurable_recipes.option.RecipeCategories.enableFleshToLeatherRecipes":"Rotten Flesh to Leather Recipes",
   "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUndoRecipes": "Undo Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes"
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableMiscellaneous": "Miscellaneous"
 }
