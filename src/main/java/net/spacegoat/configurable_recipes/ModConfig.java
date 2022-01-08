@@ -55,11 +55,11 @@ public class ModConfig implements ConfigData {
         @Comment("Enables all Undo Recipe type recipes.")
         public boolean enableUndoRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
-        @Comment("(Requires Block Of... Mod) Enables all Block Of... Recipes")
-        public boolean enableBlockOfRecipes = true;
-        @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables use of multiple items from the same category for recipes.")
         public boolean enableMiscellaneous = true;
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("(Requires Block Of... Mod) Enables all Block Of... Recipes")
+        public boolean enableBlockOfRecipes = true;
     }
     public static class Recipes {
         @ConfigEntry.Gui.RequiresRestart
