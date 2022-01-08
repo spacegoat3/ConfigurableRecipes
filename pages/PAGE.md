@@ -1,6 +1,8 @@
 <font size="4">
 <p>Adds recipes to the uncraftable items in the Minecraft. Those recipes can enabled/disabled trough config.</p>
+<p>&nbsp;</p>
 <p>If you want to know how to use the config, check <a href="https://github.com/spacegoat3/ConfigurableRecipes/wiki/Tutorial">this page.</a></p>
+<p>&nbsp;</p>
 <p>I am a new developer. So there is a high chance this mod is going to have a lot of <strong>bugs</strong> and <strong> errors</strong>. Please report to me if you have a problem, thanks.</p>
 </font>
 <p>&nbsp</p>
@@ -45,7 +47,7 @@
 
 **Experience:** _0.5_
 <p><img src="https://camo.githubusercontent.com/6c7e67c4b6ac596eaf56e0c76822865f42fe8238d0f428364fad977025b1448c/68747470733a2f2f692e696d6775722e636f6d2f6235794d6377692e706e67" width="230" height="121" data-canonical-src="https://i.imgur.com/b5yMcwi.png" /></p>
-<p>&nbsp;
+<p>&nbsp;</p>
 
 **Cooking Time:** _40 Seconds / 800 Ticks_
 
@@ -123,6 +125,7 @@
 ## Credits
 <font size="4">
 <p><strong>Authors:</strong> yesn0t <em>(GitHub)</em></p>
+<p>&nbsp;</p>
 <p><strong>Icon Pixel Art:</strong><a href="https://www.pinpng.com/picture/oRbwTw_settings-icon-pixel-art-pokemon-ditto-hd-png/"> Image Download Page</a></p>
 </font>
 <p>&nbsp;</p>
