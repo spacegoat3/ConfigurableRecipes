@@ -59,7 +59,7 @@ public class ModConfig implements ConfigData {
         public boolean enableBlockOfRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables use of multiple items from the same category for recipes.")
-        public boolean enableMiscellaneousRecipes = true;
+        public boolean enableMiscellaneous = true;
     }
     public static class Recipes {
         @ConfigEntry.Gui.RequiresRestart

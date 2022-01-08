@@ -1,6 +1,5 @@
 package net.spacegoat.configurable_recipes;
 
-import com.terraformersmc.modmenu.util.mod.Mod;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
@@ -83,7 +82,7 @@ public class ModMain implements ModInitializer {
 
 
 		//CHANGE RECIPES
-		if (ModConfig.getConfig().Miscellaneous.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableMiscellaneousRecipes){
+		if (ModConfig.getConfig().Miscellaneous.enableUniversalStone && ModConfig.getConfig().RecipeCategories.enableMiscellaneous){
 			universalStoneRecipes();
 		}
 
@@ -249,7 +248,6 @@ public class ModMain implements ModInitializer {
 
 
 	//MODDED RECIPES
-
 	//BLOCK OF...
 	private void rottenFleshBlockToLeatherFurnace() {
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
