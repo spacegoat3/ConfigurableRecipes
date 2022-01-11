@@ -129,7 +129,7 @@ public class ModConfig implements ConfigData {
     }
     public static class Miscellaneous{
         @ConfigEntry.Gui.RequiresRestart
-        @Comment("Multiple stone type blocks in Tool, Furnace, Dispenser, Dropper, Brewing Stand recipes")
+        @Comment("(May not work with some other mods.) Multiple stone type blocks in Tool, Furnace, Dispenser, Dropper, Brewing Stand recipes")
         public boolean enableUniversalStone = true;
     }
     public static class BlockOfRecipes{
