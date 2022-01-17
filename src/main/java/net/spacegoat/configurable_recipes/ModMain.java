@@ -15,44 +15,49 @@ public class ModMain implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		//VANILLA RECIPES
-		if (ModConfig.getConfig().VanillaRecipes.enableSaddleRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		//UNCRAFTABLE ITEM RECIPES
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableSaddleRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			saddleRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableHorseArmorRecipes && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableHorseArmorRecipes && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			horseArmorRecipes();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableSpongeRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableSpongeRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			spongeRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableGlowstoneDustRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
-			glowstoneDustRecipe();
-		}
-		if (ModConfig.getConfig().VanillaRecipes.enableNameTagRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableNameTagRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			nametagRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.saplingToStick && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
-			saplingToStickRecipes();
-		}
-		if (ModConfig.getConfig().VanillaRecipes.enableTotemOfUndyingRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableTotemOfUndyingRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			totemOfUndyingRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableBellRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableBellRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			bellRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableTridentRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableTridentRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			tridentRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableChainmailArmorRecipes && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableChainmailArmorRecipes && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			chainmailArmorRecipes();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableCobwebRecipe && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+		if (ModConfig.getConfig().UncraftableItemRecipes.enableCobwebRecipe && ModConfig.getConfig().RecipeCategories.enableUncraftableItemRecipes){
 			cobwebRecipe();
 		}
-		if (ModConfig.getConfig().VanillaRecipes.enableBonemealMultipliers && ModConfig.getConfig().RecipeCategories.enableVanillaRecipes){
+
+
+		//ALTERNATIVE
+		if (ModConfig.getConfig().AlternativeItemRecipes.enableBonemealMultipliers && ModConfig.getConfig().RecipeCategories.enableAlternativeItemRecipes){
 			bonemealMultiplierRecipes();
 		}
-
+		if (ModConfig.getConfig().AlternativeItemRecipes.saplingToStick && ModConfig.getConfig().RecipeCategories.enableAlternativeItemRecipes){
+			saplingToStickRecipes();
+		}
+		if (ModConfig.getConfig().AlternativeItemRecipes.enableGlowstoneDustRecipe && ModConfig.getConfig().RecipeCategories.enableAlternativeItemRecipes){
+			glowstoneDustRecipe();
+		}
+		if (ModConfig.getConfig().AlternativeItemRecipes.rottenFleshToBeefFromSmoker && ModConfig.getConfig().RecipeCategories.enableAlternativeItemRecipes){
+			rottenFleshToBeef();
+		}
 
 		//ROTTEN FLESH TO LEATHER
 		if (ModConfig.getConfig().FleshToLeather.rottenFleshFromFurnace && ModConfig.getConfig().RecipeCategories.enableFleshToLeatherRecipes){
@@ -66,9 +71,6 @@ public class ModMain implements ModInitializer {
 		}
 		if (ModConfig.getConfig().FleshToLeather.driedKelpFromCampfire && ModConfig.getConfig().RecipeCategories.enableFleshToLeatherRecipes){
 			driedKelpToLeatherCampfire();
-		}
-		if (ModConfig.getConfig().FleshToLeather.rottenFleshToBeefFromSmoker && ModConfig.getConfig().RecipeCategories.enableFleshToLeatherRecipes){
-			rottenFleshToBeef();
 		}
 
 
