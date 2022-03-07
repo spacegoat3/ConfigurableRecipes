@@ -1,4 +1,4 @@
-package net.spacegoat.configurable_recipes;
+package net.spacegoat.configurable_recipes.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

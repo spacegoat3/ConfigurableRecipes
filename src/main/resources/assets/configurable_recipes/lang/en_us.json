@@ -8,23 +8,31 @@
   "text.autoconfig.configurable_recipes.category.blockof_recipes": "Block Of... Recipes",
   "text.autoconfig.configurable_recipes.category.miscellaneous": "Miscellaneous",
 
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableNewRecipes": "Uncraftable Item Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipesCategories.enableAlternativeRecipes": "Alternative Item Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableFleshToLeatherRecipes":"Rotten Flesh to Leather Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableMiscellaneous": "Miscellaneous",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableCollaborationRecipes": "Collaboration Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUndoRecipes": "Undo Recipes",
+
   "curseforge.page": "CurseForge Page",
   "modrinth.page": "Modrinth Page",
 
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableHorseArmorRecipes": "Horse Armor Recipes",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableSaddleRecipe": "Saddle Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableSpongeRecipe": "Sponge Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableNameTagRecipe": "Name Tag Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableTotemOfUndyingRecipe": "Totem of Undying Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableBellRecipe": "Bell Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableTridentRecipe": "Trident Recipe",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableChainmailArmorRecipes": "Chainmail Armor Recipes",
-  "text.autoconfig.configurable_recipes.option.UncraftableItemRecipes.enableCobwebRecipe": "Cobweb Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableHorseArmorRecipes": "Horse Armor Recipes",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableSaddleRecipe": "Saddle Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableSpongeRecipe": "Sponge Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableNameTagRecipe": "Name Tag Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableTotemOfUndyingRecipe": "Totem of Undying Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableBellRecipe": "Bell Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableTridentRecipe": "Trident Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableChainmailArmorRecipes": "Chainmail Armor Recipes",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableCobwebRecipe": "Cobweb Recipe",
 
-  "text.autoconfig.configurable_recipes.option.AlternativeItemRecipes.enableBonemealMultipliers": "Bonemeal Multiplier Recipes",
-  "text.autoconfig.configurable_recipes.option.AlternativeItemRecipes.enableGlowstoneDustRecipe": "Glowstone Dust Recipe",
-  "text.autoconfig.configurable_recipes.option.AlternativeItemRecipes.saplingToStick": "Sapling To Stick Recipes",
-  "text.autoconfig.configurable_recipes.option.AlternativeItemRecipes.rottenFleshToBeefFromSmoker": "Rotten Flesh To Beef By Smoker",
+  "text.autoconfig.configurable_recipes.option.AlternativeRecipes.enableBonemealMultipliers": "Bonemeal Multiplier Recipes",
+  "text.autoconfig.configurable_recipes.option.AlternativeRecipes.enableGlowstoneDustRecipe": "Glowstone Dust Recipe",
+  "text.autoconfig.configurable_recipes.option.AlternativeRecipes.saplingToStick": "Sapling To Stick Recipes",
+  "text.autoconfig.configurable_recipes.option.AlternativeRecipes.rottenFleshToBeefFromSmoker": "Rotten Flesh To Beef By Smoker",
 
   "text.autoconfig.configurable_recipes.option.FleshToLeather.rottenFleshFromFurnace": "Rotten Flesh To Leather By Furnace",
   "text.autoconfig.configurable_recipes.option.FleshToLeather.rottenFleshFromCampfire": "Rotten Flesh To Leather By Campfire",
@@ -40,12 +48,5 @@
   "text.autoconfig.configurable_recipes.option.BlockOfRecipes.enableDriedKelpBlockFromFurnace": "Dried Kelp Block To Leather By Furnace",
   "text.autoconfig.configurable_recipes.option.BlockOfRecipes.enableDriedKelpBlockFromCampfire": "Dried Kelp Block To Leather By Campfire",
 
-  "text.autoconfig.configurable_recipes.option.Miscellaneous.enableUniversalStone": "Universal Stone Recipes",
-
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUncraftableItemRecipes": "Uncraftable Item Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipesCategories.enableAlternativeItemRecipes": "Alternative Item Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableFleshToLeatherRecipes":"Rotten Flesh to Leather Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUndoRecipes": "Undo Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableMiscellaneous": "Miscellaneous"
+  "text.autoconfig.configurable_recipes.option.Miscellaneous.enableUniversalStone": "Universal Stone Recipes"
 }

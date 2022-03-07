@@ -1,4 +1,4 @@
-package net.spacegoat.configurable_recipes;
+package net.spacegoat.configurable_recipes.config;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
@@ -6,6 +6,7 @@ import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
+import net.spacegoat.configurable_recipes.ModMain;
 
 @Config(name = ModMain.MOD_ID)
 @Config.Gui.Background("minecraft:textures/block/crafting_table_top.png")
@@ -19,11 +20,11 @@ public class ModConfig implements ConfigData {
 
     @ConfigEntry.Gui.TransitiveObject
     @ConfigEntry.Category("uncraftable_item_recipes")
-    public UncraftableItemRecipes UncraftableItemRecipes = new UncraftableItemRecipes();
+    public NewRecipes NewRecipes = new NewRecipes();
 
     @ConfigEntry.Gui.TransitiveObject
     @ConfigEntry.Category("alternative_item_recipes")
-    public AlternativeItemRecipes AlternativeItemRecipes = new AlternativeItemRecipes();
+    public AlternativeRecipes AlternativeRecipes = new AlternativeRecipes();
 
     @ConfigEntry.Gui.TransitiveObject
     @ConfigEntry.Category("rotten_flesh_to_leather")
@@ -51,10 +52,10 @@ public class ModConfig implements ConfigData {
     public static class RecipeCategories{
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables recipes for items that can't be normally crafted in Minecraft.")
-        public boolean enableUncraftableItemRecipes = true;
+        public boolean enableNewRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables alternative recipes for items that can be normally crafted or gathered in Minecraft.")
-        public boolean enableAlternativeItemRecipes = true;
+        public boolean enableAlternativeRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables recipes for turning Rotten Flesh and Dried Kelp to Leather using Campfires and Furnaces.")
         public boolean enableFleshToLeatherRecipes = true;
@@ -63,12 +64,18 @@ public class ModConfig implements ConfigData {
         public boolean enableUndoRecipes = true;
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Enables use of multiple items from the same category for recipes.")
-        public boolean enableMiscellaneous = true;
+        public boolean enableMiscellaneousRecipes = true;
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Enables recipes for items from supported mods.")
+        public boolean enableCollaborationRecipes = true;
+
+        //Collaboration Recipe Categories
         @ConfigEntry.Gui.RequiresRestart
         @Comment("(Requires Block Of... Mod) Enables recipes for turning Rotten Flesh Block and Dried Kelp Block to Leather Block using Campfires and Furnaces.")
         public boolean enableBlockOfRecipes = true;
     }
-    public static class UncraftableItemRecipes {
+
+    public static class NewRecipes {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("6 Source Material + 1 Leather = Horse Armor")
         public boolean enableHorseArmorRecipes = true;
@@ -97,7 +104,7 @@ public class ModConfig implements ConfigData {
         @Comment("5 Strings in X shape = Cobweb")
         public boolean enableCobwebRecipe = true;
     }
-    public static class AlternativeItemRecipes{
+    public static class AlternativeRecipes{
         @ConfigEntry.Gui.RequiresRestart
         @Comment("1 Dirt/Grass + Rotten Flesh + 1 Bone Meal = 3 Dirt/Grass")
         public boolean enableBonemealMultipliers = true;
@@ -148,11 +155,5 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("(Requires Block Of...) 6 Minutes / 7200 Ticks - 1 Experience")
         public boolean enableRottenFleshBlockToLeatherFromCampfire = true;
-        @ConfigEntry.Gui.RequiresRestart
-        @Comment("(Requires Block Of...) 3 Minutes 27 Seconds / 4140 Ticks - 0.5 Experience")
-        public boolean enableDriedKelpBlockFromFurnace = true;
-        @ConfigEntry.Gui.RequiresRestart
-        @Comment("(Requires Block Of...) 3 Minutes 27 Seconds / 4140 Ticks - 1 Experience")
-        public boolean enableDriedKelpBlockFromCampfire = true;
     }
 }
