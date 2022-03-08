@@ -1,23 +1,23 @@
 {
-  "text.autoconfig.configurable_recipes.title": "Configurable Recipes Config",
-  "text.autoconfig.configurable_recipes.category.default": "Recipe Categories",
-  "text.autoconfig.configurable_recipes.category.uncraftable_item_recipes": "Uncraftable Item Recipes",
-  "text.autoconfig.configurable_recipes.category.alternative_item_recipes": "Alternative Item Recipes",
-  "text.autoconfig.configurable_recipes.category.rotten_flesh_to_leather": "Rotten Flesh to Leather Recipes",
-  "text.autoconfig.configurable_recipes.category.undo_recipes": "Undo Recipes",
-  "text.autoconfig.configurable_recipes.category.blockof_recipes": "Block Of... Recipes",
-  "text.autoconfig.configurable_recipes.category.miscellaneous": "Miscellaneous",
-
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableNewRecipes": "Uncraftable Item Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipesCategories.enableAlternativeRecipes": "Alternative Item Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableFleshToLeatherRecipes":"Rotten Flesh to Leather Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableMiscellaneous": "Miscellaneous",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableCollaborationRecipes": "Collaboration Recipes",
-  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUndoRecipes": "Undo Recipes",
-
   "curseforge.page": "CurseForge Page",
   "modrinth.page": "Modrinth Page",
+
+  "text.autoconfig.configurable_recipes.title": "Configurable Recipes Config",
+  "text.autoconfig.configurable_recipes.category.default": "Recipe Categories",
+  "text.autoconfig.configurable_recipes.category.new_recipes": "New Recipes",
+  "text.autoconfig.configurable_recipes.category.alternative_recipes": "Alternative Recipes",
+  "text.autoconfig.configurable_recipes.category.rotten_flesh_to_leather": "Rotten Flesh to Leather Recipes",
+  "text.autoconfig.configurable_recipes.category.undo_recipes": "Undo Recipes",
+  "text.autoconfig.configurable_recipes.category.miscellaneous": "Miscellaneous",
+  "text.autoconfig.configurable_recipes.category.blockof_recipes": "Block Of... Recipes",
+
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableNewRecipes": "New Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableAlternativeRecipes": "Alternative Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableFleshToLeatherRecipes":"Rotten Flesh to Leather Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableBlockOfRecipes": "Block Of... Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableMiscellaneousRecipes": "Miscellaneous",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableCollaborationRecipes": "Collaboration Recipes",
+  "text.autoconfig.configurable_recipes.option.RecipeCategories.enableUndoRecipes": "Undo Recipes",
 
   "text.autoconfig.configurable_recipes.option.NewRecipes.enableHorseArmorRecipes": "Horse Armor Recipes",
   "text.autoconfig.configurable_recipes.option.NewRecipes.enableSaddleRecipe": "Saddle Recipe",
@@ -28,6 +28,7 @@
   "text.autoconfig.configurable_recipes.option.NewRecipes.enableTridentRecipe": "Trident Recipe",
   "text.autoconfig.configurable_recipes.option.NewRecipes.enableChainmailArmorRecipes": "Chainmail Armor Recipes",
   "text.autoconfig.configurable_recipes.option.NewRecipes.enableCobwebRecipe": "Cobweb Recipe",
+  "text.autoconfig.configurable_recipes.option.NewRecipes.enableBundleRecipe": "Bundle Recipe",
 
   "text.autoconfig.configurable_recipes.option.AlternativeRecipes.enableBonemealMultipliers": "Bonemeal Multiplier Recipes",
   "text.autoconfig.configurable_recipes.option.AlternativeRecipes.enableGlowstoneDustRecipe": "Glowstone Dust Recipe",

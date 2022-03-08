@@ -105,6 +105,6 @@ public class Recipes {
     private static void createRecipe(String id){
         String mod = ModMain.MOD_ID;
         FabricLoader.getInstance().getModContainer(mod).ifPresent(modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(mod, id), modContainer, ResourcePackActivationType.DEFAULT_ENABLED));
-        System.out.println("Registering " + id + " for " + ModMain.MOD_ID);
+        System.out.println("Registering" + id + "for" + ModMain.MOD_ID);
     }
 }
